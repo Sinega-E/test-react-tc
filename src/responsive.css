@@ -1,0 +1,1052 @@
+@media (max-width: 1135px) {
+
+  /* Slider Styles */
+  .slide-content {
+    max-width: 30rem;
+    padding: 1rem;
+  }
+  .slide__header {
+    line-height: 3rem;
+    padding: 0;
+    font-size: 2.8rem;
+  }
+  .slide__text {
+    line-height: 1.8rem;
+    padding: 0;
+    font-size: 1.2rem;
+  }
+  .slider-img {
+    height: auto;
+    max-height: 15rem;
+  }
+  /* sub category scroll */
+  .course-sub-categories-container {
+    max-width: 95%;
+  }
+  .sub-category {
+    font-size: 1rem;
+    padding: 0.4rem;
+  }
+  /* course cards */
+  .course-cards {
+    gap: 2rem;
+    padding: 3rem 0;
+  }
+  .course-card {
+    max-width: 22rem;
+    padding: 1.25rem;
+  }
+  /* reviews */
+  .review-row {
+    gap: 1.5rem;
+  }
+
+  .review-card {
+    max-width: 100%;
+    flex: 0 0 48%;
+  }
+  audio {
+    width: 280px;
+    height: 52px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  /* HEADER */
+  .header {
+    flex-wrap: nowrap;
+  }
+  .head-links {
+    text-align: center;
+    gap: 1.5rem;
+    padding-right: 1rem;
+  }
+  .container-header {
+    gap: 0;
+    justify-content: space-between;
+  }
+  .login-btn {
+    padding: 0.5rem 0.9rem;
+  }
+  /* section headings and taglines */
+  .section-headings {
+    font-size: 2.2rem;
+  }
+  .tagline {
+    font-size: 1.1rem;
+  }
+  /* course categories container */
+  .scroll-btn {
+    font-size: 1.8rem;
+  }
+  .course-categories {
+    gap: 0.4rem;
+  }
+  .category {
+    font-size: 0.9rem;
+  }
+  /* course cards */
+  .course-cards {
+    gap: 1.2rem;
+    padding: 1.8rem 0;
+  }
+  .course-card {
+    max-width: 18rem;
+    padding: 0.9rem;
+  }
+  /* Accordion */
+  .accordion {
+    max-width: 50rem;
+    margin: 1.5rem auto;
+  }
+
+  .accordion-header {
+    font-size: 1rem;
+    padding: 1.2rem 1rem;
+  }
+
+  .accordion-content p {
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  /* reviews section */
+
+  .review-card {
+    max-width: 26.8rem;
+ 
+ }
+ .audio-row > .review-card,
+.video-row > .review-card {
+ max-width: 20.3rem;
+}
+}
+@media screen and (max-width: 768px) {
+  /* HEADER */
+  .container-header {
+    padding: 0;
+  }
+  .header {
+    display: none;
+  }
+  .head-links {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0;
+    align-items: center;
+  }
+  .login-container {
+    width: 100%;
+    text-align: center;
+  }
+  .hamburger-btn {
+    display: flex;
+  }
+  .menu{
+    display:flex
+  }
+
+  /* Slider Styles */
+  .slide__header {
+    font-size: 2.6rem;
+  }
+  .slide__text {
+    font-size: 1.1rem;
+  }
+  .dots__dot {
+    height: 0.9rem;
+    width: 0.9rem;
+  }
+  /* section headings and taglines */
+  .section-headings {
+    font-size: 2rem;
+  }
+  .tagline {
+    font-size: 1rem;
+    padding-bottom: 0.8rem;
+  }
+  /* course cards */
+  .course-cards {
+    gap: 1rem;
+    padding: 1.5rem 0;
+  }
+  /* sub category scroll */
+  .course-sub-categories-container {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+  .course-sub-categories {
+    gap: 0.5rem;
+  }
+  .sub-category {
+    font-size: 0.9rem;
+    padding: 0.3rem;
+  }
+  .course-card {
+    max-width: 16rem;
+    padding: 0.75rem;
+  }
+  /* show more button */
+  .show-more {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.95rem;
+  }
+  /* trainers profile card section */
+  .trainer-cards {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .trainer-photo {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .trainer-name {
+    font-size: 1.9rem;
+  }
+
+  .trainer-title,
+  .trainer-bio,
+  .trainer-details p {
+    font-size: 0.85rem;
+  }
+  /* registration forms */
+
+  .registration-type {
+    font-size: 1.6rem;
+  }
+
+  .form-group label {
+    font-size: 0.9rem;
+    margin-bottom: 6px;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    padding: 12px 16px;
+    font-size: 14px;
+  }
+
+  .dropdown-button {
+    font-size: 14px;
+    padding: 12px 16px;
+  }
+
+  .dropdown-content label {
+    font-size: 14px;
+  }
+
+  .radio-group label {
+    font-size: 14px;
+  }
+
+  small {
+    font-size: 12px;
+  }
+
+  .registration-btn {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+
+  .register-btn button {
+    font-size: 15px;
+  }
+
+  /* Consent Section Adjustments */
+  .form-group label[for="agreement"] {
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 8px 0;
+  }
+  /* reviews */
+  .review-row {
+    gap: 1.1rem;
+  }
+
+  .review-card {
+     max-width: 19rem;
+    flex: 0 0 100%;
+  }
+  .audio-row > .review-card,
+.video-row > .review-card {
+  max-width: 19rem;
+}
+
+
+  .carousel-row,
+  .audio-row,
+  .video-row {
+    padding-bottom: 1rem;
+    overflow-x: visible;
+  }
+
+
+  .review-carousel {
+    gap: 0.8rem;
+  }
+
+  .add-review {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.95rem;
+    text-align: center;
+  }
+
+  .review-profile img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .review-profile-name-designation {
+    font-size: 0.8rem;
+  }
+  audio {
+    width: 260px;
+    height: 47px;
+  }
+
+  /* accordion */
+
+  .accordion {
+    max-width: 40rem;
+    margin: 1rem auto;
+  }
+
+  .accordion-header {
+    font-size: 0.9rem;
+    padding: 1rem 1rem;
+  }
+
+  .accordion-content p {
+    padding: 0 12px;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  /* Footer */
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .footer-section p,
+  .footer-section ul {
+    margin: 5px 0;
+  }
+
+  .footer-section ul li {
+    margin: 5px 0;
+  }
+
+  .footer-social {
+    margin-top: 20px;
+  }
+  /* Add review Modal */
+  .modal-content {
+    width: 90%;  
+    padding: 20px;
+  }
+
+  input[type="text"], textarea, input[type="file"], button[type="submit"], button[type="button"] {
+    font-size: 14px; 
+    padding: 10px;
+  }
+
+  .add-review {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 700px) {
+  /* Slider Styles */
+  .slide-content {
+    max-width: 45rem;
+    padding: 1rem;
+  }
+  .slider-img {
+    height: auto;
+    max-height: 10rem;
+  }
+  /* Navigation Links : NAVIGATION THROUGH PAGE */
+  .nav-icon {
+    font-size: 1rem;
+  }
+  .nav-link {
+    width: 7.5rem;
+    height: 7.5rem;
+    font-size: 0.9rem;
+  }
+  /* course categories container */
+  .scroll-btn {
+    font-size: 1.5rem;
+  }
+  .course-categories {
+    gap: 0.3rem;
+  }
+  .category {
+    font-size: 0.85rem;
+  }
+  .category {
+    padding: 0.6rem 1rem;
+  }
+
+  /* registration forms */
+  .registration-type {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .form-group label {
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    padding: 10px 14px;
+    font-size: 12px;
+  }
+
+  .dropdown-button {
+    font-size: 12px;
+    padding: 10px 14px;
+  }
+
+  .dropdown-content label {
+    font-size: 12px;
+  }
+
+  .radio-group label {
+    font-size: 12px;
+  }
+
+  small {
+    font-size: 10px;
+    line-height: 1.2rem;
+  }
+
+  .registration-btn {
+    padding: 8px 14px;
+    font-size: 12px;
+  }
+
+  .register-btn button {
+    font-size: 14px;
+    padding: 7px 11px;
+    margin: 4px;
+  }
+
+  /* Consent Section Adjustments */
+  .form-group label[for="agreement"] {
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 6px 0;
+  }
+
+  .review-card {
+    max-width: 20rem;
+ 
+  }
+
+.audio-row > .review-card,
+.video-row > .review-card {
+  max-width: 17rem;
+}
+}
+@media (max-width: 580px) {
+  /* HEADER */
+  .logoImg {
+    max-height: 3.5rem;
+  }
+  .menu-burger-open {
+    font-size: 1.9rem;
+  }
+  /* Slider Styles */
+  .child-slide {
+    flex-direction: column;
+  }
+  .slide-content {
+    padding: 0;
+  }
+  .slide__text {
+    font-size: 1.2rem;
+    padding-bottom: 0;
+  }
+  /* Navigation Links : NAVIGATION THROUGH PAGE */
+  .nav-icon {
+    font-size: 0.8rem;
+  }
+  .nav-link {
+    width: 6rem;
+    height: 6rem;
+    font-size: 0.75rem;
+  }
+  /* sub category */
+  .course-sub-categories-container {
+    max-width: 95%;
+  }
+
+  .sub-category {
+    font-size: 1rem;
+    padding: 0.3rem;
+  }
+
+  /* accordion */
+  .accordion {
+    max-width: 90%;
+    margin: 1rem auto;
+  }
+
+  .accordion-header {
+    padding: 0.8rem 0.8rem;
+  }
+
+  .accordion-header .icon {
+    width: 10%;
+  }
+
+  .accordion-content p {
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .review-card {
+    max-width: 20rem;
+ 
+  }
+
+.audio-row > .review-card,
+.video-row > .review-card {
+  max-width: 15rem;
+}
+}
+
+@media screen and (max-width: 480px) {
+  /* HEADER */
+  .login-btn {
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+  }
+  .head-links {
+    gap: 1.2rem;
+  }
+
+  /* Navigation Links : NAVIGATION THROUGH PAGE */
+  .nav-links {
+    padding-top: 2rem;
+    margin: 0 5.5rem;
+  }
+  .nav-links ul {
+    gap: 1rem;
+  }
+  .nav-link {
+    width: 6rem;
+    height: 6rem;
+    font-size: 0.7rem;
+  }
+  /* section headings and taglines */
+  .section-headings {
+    font-size: 1.8rem;
+  }
+  .tagline {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+  }
+  /* course categories container */
+  .scroll-btn {
+    font-size: 1.3rem;
+  }
+  .course-categories {
+    gap: 0.2rem;
+  }
+  .category {
+    font-size: 0.8rem;
+  }
+  .course-categories-container {
+    padding: 0.5rem;
+  }
+  /* sub category scroll */
+  .course-sub-categories {
+    gap: 0.3rem;
+  }
+  .sub-category {
+    font-size: 0.8rem;
+    padding: 0.2rem;
+  }
+  /* course cards */
+  .course-cards {
+    gap: 1rem;
+    padding: 1.5rem 0;
+  }
+  .course-card {
+    max-width: 18.5rem;
+    padding: 0.75rem;
+  }
+  .course-title {
+    font-size: 1.3rem;
+  }
+  .course-description {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+  /* show more button */
+  .show-more {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+  /* trainers profile card section */
+  .section-headings {
+    font-size: 1.5rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+
+  .trainer-side-heading {
+    font-size: 0.9rem;
+  }
+  .trainer-card {
+    padding: 1rem;
+    max-width: 18.2rem;
+  }
+
+  .btn {
+    font-size: 0.85rem;
+    padding: 0.5rem 0.8rem;
+  }
+
+  /* registration form */
+  .registration {
+    padding: 25px;
+  }
+
+  .registration-type {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .form-group label {
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+
+  .dropdown-button {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+
+  .dropdown-content label {
+    font-size: 12px;
+  }
+
+  .radio-group label {
+    font-size: 12px;
+  }
+
+  small {
+    font-size: 10px;
+    line-height: 1.1rem;
+  }
+
+  .registration-btn {
+    font-size: 0.85rem;
+    padding: 0.5rem 0.8rem;
+  }
+
+  .register-btn button {
+    font-size: 13px;
+    padding: 6px 10px;
+    margin: 3px;
+  }
+  .radio-group input[type="radio"] {
+    margin: -30px;
+  }
+  /* Consent Section Adjustments */
+  .form-group label[for="agreement"] {
+    font-size: 12px;
+    line-height: 1.4;
+    padding: 5px 0;
+  }
+
+  /* review section */
+  .review-card {
+    max-width: 17.8rem;
+    padding:0 1rem;
+  }
+
+
+.audio-row > .review-card,
+.video-row > .review-card {
+  max-width: 18.1rem;
+}
+
+  .review-profile-name-designation {
+    font-size: 0.75rem;
+  }
+
+  .review-profile-name {
+    font-size: 1rem;
+  }
+
+  .review-profile-designation {
+    font-size: 0.85rem;
+  }
+
+  .review-text {
+    font-size: 0.9rem;
+  }
+  audio {
+
+    width: 240px;
+    height: 35px;
+  }
+  .accordion-header {
+    font-size: 0.8rem;
+  }
+
+  /* Footer */
+  .footer-section h5 {
+    font-size: 1.4rem;
+  }
+
+  .footer-section p,
+  .footer-section ul {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  }
+
+  .footer-social a {
+    font-size: 18px;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+  }
+  /* Add review modal */
+  .modal-content {
+    width: 95%; 
+    padding: 15px;
+  }
+
+  input[type="text"], textarea, input[type="file"], button[type="submit"], button[type="button"] {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  .add-review {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+
+  .modal-overlay {
+    padding: 10px;
+  }
+}
+@media (max-width: 460px) {
+  /* Slider Styles */
+  .parent-slider {
+    height: 34rem;
+  }
+  .slide__header {
+    padding: 0 1.2rem;
+  }
+  .slide__text {
+    padding: 1.2rem;
+  }
+  .dots {
+    top: 40.5rem;
+  }
+  /* Navigation Links : NAVIGATION THROUGH PAGE */
+  .nav-links {
+    padding-top: 1.8rem;
+    margin: 0 4.5rem;
+  }
+  /* sub categories */
+  .course-sub-categories-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .sub-category {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+  }
+
+  /* Accordion */
+  .accordion {
+    max-width: 90%;
+    margin: 1rem auto;
+  }
+
+  .accordion-header {
+    padding: 0.6rem 0.8rem;
+  }
+  .accordion-header .icon {
+    width: 15%;
+    padding: 0.1rem;
+  }
+
+  .accordion-content p {
+    padding: 0 10px;
+    font-size: 13px;
+    line-height: 1.6;
+  }
+}
+@media (max-width: 430px) {
+  /* HEADER */
+  .menu-burger-open {
+    font-size: 1.6rem;
+  }
+  .logoImg {
+    max-height: 3rem;
+  }
+  /* Slider Styles */
+  .child-slide {
+    padding: 0;
+  }
+  .slide-content,
+  .slide__header,
+  .slide__text {
+    padding: 0.2rem;
+  }
+  .slide__header {
+    font-size: 2.3rem;
+    line-height: 2.5rem;
+  }
+  .slide__text {
+    line-height: 1.6rem;
+    font-size: 1.1rem;
+  }
+  .dots {
+    top: 39.6rem;
+  }
+  /* Navigation Links : NAVIGATION THROUGH PAGE */
+  .nav-links {
+    padding-top: 1.8rem;
+    margin: 0 2.3rem;
+  }
+  .nav-links ul {
+    gap: 0.5rem;
+  }
+  .nav-link {
+    width: 4.5rem;
+    height: 4.5rem;
+    font-size: 0.5rem;
+  }
+  /* section headings and taglines */
+  .section-headings {
+    font-size: 1.6rem;
+  }
+  .tagline {
+    font-size: 0.9rem;
+  }
+  /* course categories container */
+  .scroll-btn {
+    font-size: 1rem;
+  }
+  .course-categories {
+    gap: 0.2rem;
+  }
+  .category {
+    font-size: 0.7rem;
+  }
+  .course-categories-container {
+    padding: 0.3rem;
+  }
+  /* sub categories scroll */
+  .course-sub-categories-container {
+    gap: 1rem;
+  }
+  .sub-category {
+    font-size: 0.8rem;
+    padding: 0.5rem 0;
+  }
+  .heading-container {
+    padding: 0;
+  }
+  /* course cards */
+  .course-title {
+    font-size: 1.1rem;
+  }
+  .course-description {
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .registration {
+    padding: 20px;
+  }
+
+  .registration-type {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .form-group label {
+    font-size: 0.8rem;
+    margin-bottom: 3px;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    padding: 6px 10px;
+    font-size: 11px;
+  }
+
+  .dropdown-button {
+    font-size: 11px;
+    padding: 6px 10px;
+  }
+
+  .dropdown-content label {
+    font-size: 11px;
+  }
+
+  .radio-group label {
+    font-size: 11px;
+  }
+
+  small {
+    font-size: 9px;
+  }
+
+  .registration-btn {
+    font-size: 0.85rem;
+    padding: 0.5rem 0.8rem;
+  }
+
+  .register-btn button {
+    font-size: 12px;
+    padding: 5px 9px;
+    margin: 2px;
+  }
+
+  .radio-group input[type="radio"] {
+    margin-right: -30px;
+  }
+
+  /* Consent Section Adjustments */
+  .form-group label[for="agreement"] {
+    font-size: 11px;
+    line-height: 1.3;
+    padding: 4px 0;
+  }
+}
+
+@media (max-width: 320px) {
+  /* HEADER */
+  .logoImg {
+    max-height: 2rem;
+    width: auto;
+  }
+  .menu-burger-open {
+    font-size: 1.2rem;
+  }
+  .login-btn {
+    font-size: 1rem;
+  }
+  /* Slider Styles */
+  .slide-content {
+    max-width: 50rem;
+    padding: 1.5rem;
+  }
+  .slide__header {
+    line-height: 2rem;
+    font-size: 1.75rem;
+  }
+  .slide__text {
+    padding: 0;
+    line-height: 1.5rem;
+    font-size: 1rem;
+  }
+  .dots {
+    top: 38.5rem;
+  }
+  /* Navigation Links : NAVIGATION THROUGH PAGE */
+  .nav-links {
+    padding-top: 1.8rem;
+    margin: 0.5rem 2.5rem;
+  }
+  .nav-link {
+    width: 4rem;
+    height: 4rem;
+  }
+  /* section headings and taglines */
+  .section-headings {
+    font-size: 1.4rem;
+  }
+  .tagline {
+    font-size: 0.8rem;
+    padding-bottom: 0;
+  }
+  .course-categories {
+    margin: 0 0.2rem;
+    padding-top: 0;
+  }
+  /* course cards */
+  .course-title {
+    font-size: 1.2rem;
+  }
+  .course-description {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+}
+@media (max-width: 260px) {
+  /* HEADER */
+  .logoImg {
+    max-height: 1.8rem;
+    width: auto;
+  }
+  .menu-burger-open {
+    font-size: 1rem;
+  }
+  .login-btn {
+    font-size: 0.8rem;
+  }
+  /* Slider Styles */
+  .slide__header {
+    padding: 0 1rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+  }
+  .slide__text {
+    padding: 0 0.2rem;
+    line-height: 1.3rem;
+    font-size: 0.8rem;
+  }
+  .dots__dot {
+    max-height: 0.7rem;
+    max-width: 0.7rem;
+  }
+  /* section headings and taglines */
+  .section-headings {
+    font-size: 1.3rem;
+  }
+  .tagline {
+    font-size: 0.8rem;
+  }
+}
+
+/* ----------- */
+
+
